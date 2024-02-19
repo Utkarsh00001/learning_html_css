@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url(../imgs/bodyassback.jpg);
+}
+
+.contener {
+    width: 80%;
+    min-height: 100px;
+    /* border: 3px solid black; */
+    margin: auto;
+}
+
+.main-header-div {
+    width: 100%;
+    height: 70px;
+    background-color: lightseagreen;
+}
+
+.main-header-div .logo-div {
+    float: left;
+    width: 48%;
+    height: 60px;
+    /* border: 1px solid #fff; */
+}
+
+.logo-div h1 {
+    color: white;
+    padding: 10px;
+}
+
+.main-header-div .menu-div {
+    float: right;
+    width: 48%;
+    height: 60px;
+    padding-top: 20px;
+    /* border: 1px solid #fff; */
+}
+
+.menu-div a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu-div a:hover {
+    background-color: crimson;
+    color: white;
+}
+
+.slider {
+    width: 100%;
+    height: 400px;
+    background-color: beige;
+    margin-top: 10px;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-body-div {
+    width: 100%;
+    height: auto;
+    background-color: lightskyblue;
+    margin-top: 10px;
+}
+
+.main-body-div .sidebar {
+    float: left;
+    width: 25%;
+    height: 290px;
+    padding: 10px;
+    /* border: 1px solid #fff; */
+}
+
+.main-body-div .contents-div {
+    float: right;
+    width: 70%;
+    min-height: 300px;
+    padding: 5px;
+    /* border: 1px solid #fff; */
+}
+
+.contents-div .text {
+    float: left;
+    width: 55%;
+    height: auto;
+}
+
+.text p {
+    padding: 10px;
+    text-align: justify;
+}
+
+.contents-div .photo {
+    float: right;
+    width: 40%;
+    height: auto;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    width: 100%;
+    height: 70px;
+    background-color: lightseagreen;
+    margin-top: 10px;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}

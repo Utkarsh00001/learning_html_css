@@ -1,0 +1,80 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.contenner
+{
+  width: 60%;
+  min-height: 100%;
+  border: 3px solid black;
+  margin: 0 auto;
+}
+.Cname-Box
+{
+  width: 100%;
+  height: 50px;
+  background-color: darkcyan;
+  
+}
+.Cname-Box h1
+{
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+}
+.MenuBox
+{
+  width: 100%;
+  height: 50px;
+  background-color: darkgoldenrod;
+  margin-top: 10px;
+  display: flex;
+  justify-content: left; 
+  align-items: center;
+}
+.MenuBox a
+{
+  text-decoration: none;
+  color: white;
+  margin: 0 25px;
+}
+.imageBox
+{
+  width: 100%;
+  height: 350px;
+  margin-top: 10px;
+  border: 2px solid black;
+}
+.imageBox img
+{
+  width: 100%;
+  height: 100%;
+}
+.contents
+{
+  width: 100%;
+  height: auto;
+  background-color: white;
+  margin-top: 10px;
+}
+.contents p
+{
+  text-align: justify;
+  padding: 3px;
+}
+.footer
+{
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  background-color: darkcyan;
+}
+.footer p
+{
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}

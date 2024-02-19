@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .box1 {
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    margin: 100px auto;
+  }
+  
+  .box1 h2 {
+    color: red;
+    padding: 10px;
+    text-align: center;
+    font-size: 38px;
+    text-shadow: 5px 5px 2px gray;
+  }
+  
+  .box1 .box2 p {
+    padding: 10px;
+    text-align: justify;
+  }
+  
+  .box1 .box2 p::first-letter {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: crimson;
+  }
+  
+  .box2 .img-div img {
+    width: 100%;
+    height: auto;
+  }
+  
