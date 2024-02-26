@@ -42,8 +42,8 @@
 {
     text-decoration: none;
     color: white;
-    line-height: 40px;
-    padding-right: 20px;
+   /* line-height: 40px;*/
+    padding: 10px;
 }
 .header-Menu-div a:hover
 {
