@@ -3,12 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 .contener {
     width: 80%;
     min-height: 450px;
     margin: auto;
     /* border: 2px solid black; */
 }
+
 .header-div {
     width: 100%;
     min-height: 430px;
@@ -66,13 +68,14 @@
     transition: 1s;
 
 }
-.login-box-div{
+
+.login-box-div {
 
     width: 27%;
     min-height: 300px;
     border: 7px solid #fff;
     position: absolute;
-    top:90px;
+    top: 90px;
     right: 50px;
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
@@ -83,17 +86,24 @@
     border-top-color: orange;
     border-bottom-color: green;
 }
-.login-header-div h3
-{
+
+.login-header-div h3 {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
     text-align: center;
 }
+
 .form-div {
     width: 100%;
+    position: relative;
 }
-
+.form-div img
+{
+    position: absolute;
+    top: 170px;
+    right: 210px;
+}
 .form-div label {
     width: 100%;
     color: white;
@@ -104,38 +114,49 @@
 input[type=text] {
     width: 90%;
     margin: 10px 10px;
-    padding: 10px 10px;
+    padding: 10px 35px;
     outline: none;
     border: none;
     background: none;
+    background-image: url(../imgs/usericon.png);
+    background-repeat: no-repeat;
     color: white;
-    border-bottom: 2px solid white;
-    text-align: center;
-    /* border-radius: 10px; */
+    /* border-bottom: 2px solid white; */
+    /* text-align: center; */
+    border-radius: 10px;
 
 }
 
-input[type=text]::placeholder {
+input[type=text]:focus {
+    background-color: skyblue;
+}
+
+/* input[type=text]::placeholder {
     text-align: center;
     color: white;
-}
+} */
 
 input[type=password] {
     width: 90%;
     margin: 10px 10px;
-    padding: 10px 10px;
+    padding: 10px 35px;
     outline: none;
     border: none;
-    text-align: center;
-    /* border-radius: 10px; */
     background: none;
+    background-image: url(../imgs/passicon.png);
+    background-repeat: no-repeat;
     color: white;
-    border-bottom: 2px solid white;
+    /* border-bottom: 2px solid white; */
+    /* text-align: center; */
+    border-radius: 10px;
 }
 
-input[type=password]::placeholder {
+/* input[type=password]::placeholder {
     text-align: center;
     color: white;
+} */
+input[type=password]:focus {
+    background-color: skyblue;
 }
 
 input[type=submit] {
@@ -147,9 +168,13 @@ input[type=submit] {
     font-weight: bold;
     font-size: 20px;
     border: none;
-    background-color: #1D4350;
+    /* background-color: #1D4350; */
+    background: none;
+    /* background-image: url(../imgs/loginicon.png); */
+    background-repeat: no-repeat;
     color: white;
     border-radius: 20px;
+   
 
 }
 
