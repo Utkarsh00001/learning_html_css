@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 60%;
+    min-height: 100px;
+
+    margin: 100px auto;
+}
+
+.heading {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.form-div {
+    width: 500px;
+    min-height: 300px;
+    border: 3px solid #000;
+    margin: auto;
+    padding: 20px;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-left: 0;
+    border-right: 0;
+    border-top-width: 6px;
+    border-bottom-width: 6px;
+    border-top-color: crimson;
+    border-bottom-color: royalblue;
+    /* box-shadow: 10px 10px 4px gray; */
+    background-color: white;
+
+}
+
+.formdata {
+    width: 100%;
+}
+
+label {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+input[type=text] {
+
+    outline: none;
+    /* border: none;
+border-bottom: 2px solid black; */
+    width: 94%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    /* text-align: center; */
+    background-image: url(imgs/user.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+
+}
+
+input[type=password] {
+
+    width: 94%;
+
+    outline: none;
+    /* border: none;
+border-bottom: 2px solid black; */
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    /* text-align: center; */
+    background-image: url(imgs/pass.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+
+}
+
+input[type=submit] {
+
+    width: 94%;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+    background-color: royalblue;
+    color: white;
+}
+
+input[type=submit]:hover {
+    background-color: crimson;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(to right, #536976, #292E49);
+}
