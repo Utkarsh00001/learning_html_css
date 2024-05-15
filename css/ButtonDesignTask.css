@@ -1,0 +1,227 @@
+
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width:60%;
+    min-height: 100px;
+    margin: 10px auto;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,70px);
+    grid-gap: 10px;
+}
+
+.div1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,30px);
+    grid-gap: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.div1 .btn1 button{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(46, 55, 219);
+    color: white;
+    border: none;
+}
+.div1 .btn2 button{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(176, 60, 230);
+    color: white;
+    border: none;
+}
+.div1 .btn3 button{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(74, 228, 118);
+    color: white;
+    border: none;
+}
+.div1 .btn4 button{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(213, 213, 11);
+    color: white;
+    border: none;
+}
+.div1 .btn5 button{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(210, 30, 30);
+    color: white;
+    border: none;
+}
+.div1 .btn6 button{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(86, 182, 226);
+    color: white;
+    border: none;
+}
+.div1 .btn7 button{
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    border: none;
+}
+.div1 .btn8 button{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.div1 .btn9 button{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(239, 239, 239) ;
+    color: blue;
+    border: none;
+}
+.div2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,30px);
+    grid-gap: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    
+}
+.div2 .btn1 button{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(46, 55, 219);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.div2 .btn2 button{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(176, 60, 230);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+
+}
+.div2 .btn3 button{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(74, 228, 118);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.div2 .btn4 button{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(213, 213, 11);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.div2 .btn5 button{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(210, 30, 30);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.div2 .btn6 button{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(86, 182, 226);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.div2 .btn7 button{
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.div2 .btn8 button{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.div2 .btn9 button{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(239, 239, 239) ;
+    color: blue;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.div3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,30px);
+    grid-gap: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    border: 1px solid black;
+
+}
+.div4{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,30px);
+    grid-gap: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    border: 1px solid black;
+
+}

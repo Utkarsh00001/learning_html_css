@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    width: 80%;
+    min-height: 700px;
+    margin: 0 auto;
+    background-image: url(../imgs/template2.png);
+    background-size: auto;
+}
+.main-container .login-container{
+    width: 30%;
+    height: 380px;
+    border: 1px solid black;
+    margin: 10px auto;
+ 
+}

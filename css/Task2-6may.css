@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.box{
+    width: 60%;
+    min-height: 600px;
+    margin: 20px auto;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+}
+.b1{
+    background-image: linear-gradient(45deg,#8e9eab,#eef2f3);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.b2{
+    border-radius: 10px;
+    background-image: linear-gradient(45deg,#bdc3c7,#fcc0bd);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.b1 .para-div{
+    width: 68%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+    float: left;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}
+.b1 .para-div button{
+    width: 100px;
+    display: inline;
+    background-color: gray;
+}
+.b1 .img-div{
+    width: 30%;
+    height: 100%;
+    /* border: 2px solid black; */
+    float: right;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 50px;
+}
+.b2 .para-div{
+    width: 68%;
+    height: 100%;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    float: right;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.b1 .img-div img{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 50px;
+}
+.b2 .img-div{
+    width: 30%;
+    height: 100%;
+    /* border: 2px solid black; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 50px;
+}
+.b2 .img-div img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 50px;
+}
+.b2 .para-div{
+    width: 68%;
+    height: 100%;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    float: right;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}
+.b2 .para-div button{
+    width: 100px;
+    display: inline;
+    background-color: gray;
+}

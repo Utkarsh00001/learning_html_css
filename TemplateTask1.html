@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Layout 1</title>
+    <link rel="stylesheet" href="css/TemplateTask1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main-container">
+    <div class='signup-container'>
+        <div class='left-container'>
+            <h1>  PUPASSURE </h1>
+            <div class='puppy'>
+                <img src='imgs/p1.webp'>
+            </div>
+        </div>
+        <div class='right-container'>
+            <header>
+                
+                <div class='set'>
+                    <div class='pets-name'>
+                        <label for='pets-name'>Name</label>
+                        <input id='pets-name' placeholder="Pet's name" type='text'>
+                    </div>
+                    <div class='pets-photo'>
+                        <button>
+                            <i class='fas fa-camera'></i>
+                        </button>
+                        <label for='pets-upload'>Upload a photo</label>
+                    </div>
+                </div>
+                <div class='set'>
+                    <div class='pets-breed'>
+                        <label for='pets-breed'>Breed</label>
+                        <input id='pets-breed' placeholder="Pet's breed" type='text'>
+                    </div>
+                    <div class='pets-birthday'>
+                        <label for='pets-birthday'>Birthday</label>
+                        <input id='pets-birthday' placeholder='MM/DD/YYYY' type='text'>
+                    </div>
+                </div>
+                <div class='set'>
+                    <div class='pets-gender'>
+                        <label for='pet-gender-female'>Gender</label>
+                        <div class='radio-container'>
+                            <input checked='' id='pet-gender-female' name='pet-gender' type='radio' value='female'>
+                            <label for='pet-gender-female'>Female</label>
+                            <input id='pet-gender-male' name='pet-gender' type='radio' value='male'>
+                            <label for='pet-gender-male'>Male</label>
+                        </div>
+                    </div>
+                    <div class='pets-spayed-neutered'>
+                        <label for='pet-spayed'>Spayed or Neutered</label>
+                        <div class='radio-container'>
+                            <input checked='' id='pet-spayed' name='spayed-neutered' type='radio' value='spayed'>
+                            <label for='pet-spayed'>Spayed</label>
+                            <input id='pet-neutered' name='spayed-neutered' type='radio' value='neutered'>
+                            <label for='pet-neutered'>Neutered</label>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class='pets-weight'>
+                    <label for='p'>Weight</label>
+                    <div class='radio-container'>
+                        <input checked='' id='p' name='pet-weight' type='radio' >
+                        <label for='p'>0-25 lbs</label>
+                        <input id='p-w-25-50' name='pet-weight' type='radio' >
+                        <label for='p-w-25-50'>25-50 lbs</label>
+                        <input id='p-w-50-100' name='pet-weight' type='radio' >
+                        <label for='p-w-50-100'>50-100 lbs</label>
+                        <input id='p-w-100-plus' name='pet-weight' type='radio' >
+                        <label for='p-w-100-plus'>100+ lbs</label>
+                    </div>
+                </div>
+            </header>
+            <footer>
+                <div class='set'>
+                    <button>Back</button>
+                    <button>Next</button>
+                </div>
+            </footer>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
